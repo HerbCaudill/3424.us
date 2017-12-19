@@ -1,0 +1,287 @@
+﻿/*
+
+291F28 purple lowlight
+282c27 purple masthead
+181c17 purple body
+413540 purple
+928C92 purple
+3e413d purple
+
+
+293E42 turquoise lowlight
+2E4549 turquoise masthead
+334D51 turquoise body
+3C5155 turquoise
+66777A turquoise
+748386 turquoise
+828F92 turquoise
+ABB5B6 turquoise
+
+
+--- NEW COLORS (Green, for 3424.us)
+
+181c17 Green body
+282c27 Green masthead
+2f332e
+3e413d
+d1d2d1
+
+*/
+
+
+body
+{
+	background:black;
+	color:#d1d2d1;
+	margin:0;
+	background:#000001 ;
+}
+
+body, td, p
+{
+	Font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:16px;
+	font-weight:normal;
+}
+
+a:active
+{
+	color:#3e413d;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#3e413d;
+	text-decoration:none;
+}
+
+a
+{
+	color:#3e413d;
+	text-decoration:none;
+}
+
+div#Container
+{
+	text-align:left;
+	width:100%;
+	background:#000001 ;
+	}
+
+
+div#Footer
+{
+    height:119px;
+    vertical-align:middle;
+}
+
+
+div#Masthead
+{
+    height:119px;
+    vertical-align:middle;
+}
+
+div#Masthead
+{
+    text-align:right;
+    background:#282c27 url(../images/ornament.gif) no-repeat top left;
+}
+    
+div#Footer
+{
+	text-align:center;
+    background:#282c27 url(../images/ornament.bottom.gif) no-repeat top right;
+}
+
+div#Footer a
+{
+	font-size:11px;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	display:block;
+	padding:50px;
+}
+
+a:hover
+{
+	color:#d1d2d1;
+
+}
+
+a.Index
+{
+	display:block;
+	width:290px;
+	float:left;
+	margin:0 15px 15px 0;
+	height:100px;
+	padding:15px;
+}
+
+a.Index img
+{
+	vertical-align:top;
+	float:left;
+}
+
+a.Index img.Icon
+{
+	border:1px solid #000001 ;
+	margin-right:10px;
+}
+
+a:hover.Index
+{
+	background:#111;
+}
+
+a:hover.Index img.Icon
+{
+	border:1px solid #d1d2d1;
+}
+
+a span.Location
+{
+    display:block;
+    font-size:10px;
+    text-transform:uppercase;
+    margin-top:4px;
+}
+
+a:hover span.Location
+{
+    color:#aaa;
+}
+
+div#Photos
+{
+	padding:25px;
+}
+
+div#MainContent
+{
+	padding:25px;
+	margin-right:150px;
+	height:1%;
+}
+
+div#Photos
+{
+	text-align:center;
+}
+
+table#Index
+{
+
+}
+
+table#Index td
+{
+	vertical-align:top;
+}
+
+small
+{
+	font-size:11px;
+}
+
+h4
+{
+	font-size:11px;
+	line-height:24px;
+	font-weight:normal;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	margin:24px 0;
+}
+
+h5
+{
+	font-size:10px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding:40px 0 10px 0;
+	margin:24px 0;
+    background:transparent url(../images/divider.gif) no-repeat center top;
+    text-transform:uppercase;
+}    
+
+/***** Year menu */
+
+div#YearMenu
+{
+    position:absolute;
+    top:140px;
+    right:20px;
+    width:120px;
+}
+
+div#YearMenu a
+{
+    color:#3e413d;
+    display:block;
+    clear:both;
+    text-align:center;
+    height:60px;
+    font-size:11px;
+    margin-left:10px;
+    padding:7px 3px 0px 0;
+}
+
+div#YearMenu a:hover
+{
+	background:#111;
+}
+
+
+div#YearMenu a.Selected:hover
+{
+    color:#d1d2d1;
+}
+
+
+div#YearMenu a.Selected
+{
+	font-size:18px;
+    color:#d1d2d1;
+}
+
+div#YearMenu a:hover
+{
+    color:#d1d2d1;
+}
+
+div#YearMenu a img
+{
+    display:block;
+    float:right;
+    margin:0 3px 3px 0;
+    border:1px solid #282c27;
+}
+
+div#YearMenu a.Selected:hover img
+{
+    border-color:#d1d2d1;
+}
+
+div#YearMenu a.Selected img
+{
+    border-color:#d1d2d1;
+    margin-left:5px;
+}
+
+div#YearMenu a:hover img
+{
+    border-color:#d1d2d1;
+}
+
+
+/***** Divider */
+
+div.Divider
+{
+	margin:48px 0;
+    background:transparent url(../images/divider.gif) no-repeat center top;
+}    
